@@ -19,6 +19,7 @@
     "vite": "^4.0.0"
   },
   "dependencies": {
-    "pocketbase": "^0.9.0"
+    "bad-words": "^3.0.4",
+    "pocketbase": "^0.9.1"
   }
 }
