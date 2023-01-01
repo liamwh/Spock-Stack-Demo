@@ -64,7 +64,9 @@
   {/each}
 </div>
 
-<form on:submit|preventDefault={sendMessage}>
-  <input placeholder="Message" type="text" bind:value={newMessage} />
-  <button type="submit">Send</button>
-</form>
+{#if $currentUser}
+  <form on:submit|preventDefault={sendMessage}>
+    <input placeholder="Message" type="text" bind:value={newMessage} />
+    <button type="submit">Send</button>
+  </form>
+{/if}
