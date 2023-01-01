@@ -24,3 +24,7 @@ dist-ssr
 *.sw?
 
 pnpm-lock.yaml
+
+# Pocketbase
+pb_data
+pocketbase
